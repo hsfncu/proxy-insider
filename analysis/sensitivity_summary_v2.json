@@ -1,0 +1,300 @@
+{
+  "note": "M = π·F(c*); b=1; W = U − λM; C(x)=0",
+  "baseline": {
+    "vertices": [
+      {
+        "config": "L2+L5",
+        "mask": 18,
+        "M": 0,
+        "U": 0.7527777777777778,
+        "lambda_from": 0
+      }
+    ],
+    "nested": true
+  },
+  "grid": {
+    "n_points": 120,
+    "axes": {
+      "delta": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "nu": [
+        0,
+        0.25,
+        0.5
+      ],
+      "qs": [
+        0,
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "Cbar": [
+        1,
+        2
+      ]
+    },
+    "vertex_frequency": {
+      "L2+L5": 120
+    },
+    "sequence_frequency": {
+      "L2+L5": 120
+    },
+    "points_with_checkpoint_vertex": 120,
+    "points_non_nested": 0,
+    "lambda_to_zero_misuse": {
+      "min": 0,
+      "median": 0,
+      "max": 0
+    }
+  },
+  "epsilon": {
+    "first_checkpoint_vertex": {
+      "eps": 0,
+      "seq": "L2+L5@λ≥0.000"
+    },
+    "rows": [
+      {
+        "eps": 0,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.1,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.0378968253968254,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.2,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.0757936507936508,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.3,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.11369047619047618,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.4,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.1515873015873016,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.5,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.18948412698412698,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.6,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.22738095238095235,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.7,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.2652777777777777,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.8,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.3031746031746032,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 0.9,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.3410714285714286,
+        "lambda_to_checkpoint": 0
+      },
+      {
+        "eps": 1,
+        "ck": true,
+        "sequence": "L2+L5@λ≥0.000",
+        "pi_L1L2L3": 0.37896825396825395,
+        "lambda_to_checkpoint": 0
+      }
+    ],
+    "grid_share": {
+      "1": 1,
+      "0.1": 1,
+      "0.2": 1,
+      "0.5": 1
+    }
+  },
+  "permission_error": {
+    "first_non_L5_vertex": null,
+    "first_L4_vertex": {
+      "eps": 0.01,
+      "seq": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥46.524"
+    },
+    "rows": [
+      {
+        "eps": 0,
+        "sequence": "L2+L5@λ≥0.000",
+        "vertices": [
+          {
+            "config": "L2+L5",
+            "pi": 0,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          }
+        ]
+      },
+      {
+        "eps": 0.01,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥46.524",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.0019404761904761906,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 46.52351738241309
+          }
+        ]
+      },
+      {
+        "eps": 0.02,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥23.262",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.003880952380952381,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 23.261758691206545
+          }
+        ]
+      },
+      {
+        "eps": 0.05,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥9.305",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.009702380952380954,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 9.304703476482617
+          }
+        ]
+      },
+      {
+        "eps": 0.1,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥4.652",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.019404761904761907,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 4.652351738241308
+          }
+        ]
+      },
+      {
+        "eps": 0.2,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥2.326",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.038809523809523815,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 2.326175869120654
+          }
+        ]
+      },
+      {
+        "eps": 0.5,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥0.930",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.09702380952380953,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 0.9304703476482619
+          }
+        ]
+      },
+      {
+        "eps": 1,
+        "sequence": "L2+L3+L5@λ≥0.000 → L1+L2+L3+L4+L5@λ≥0.465",
+        "vertices": [
+          {
+            "config": "L2+L3+L5",
+            "pi": 0.19404761904761905,
+            "U": 0.7527777777777778,
+            "lambda_from": 0
+          },
+          {
+            "config": "L1+L2+L3+L4+L5",
+            "pi": 0,
+            "U": 0.6625,
+            "lambda_from": 0.46523517382413093
+          }
+        ]
+      }
+    ],
+    "grid_share_L4_vertex": {
+      "1": 0.8,
+      "0.05": 0.2,
+      "0.1": 0.2,
+      "0.2": 0.3333333333333333,
+      "0.5": 0.5333333333333333
+    }
+  }
+}

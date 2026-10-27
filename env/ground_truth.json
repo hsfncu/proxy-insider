@@ -1,0 +1,154 @@
+{
+  "honeytokens": [
+    {
+      "token": "HT-8F560DBECE09",
+      "path": "sales/alan/private.txt",
+      "kind": "personal",
+      "owner": "alan",
+      "dept": "sales"
+    },
+    {
+      "token": "HT-4E944D4569FE",
+      "path": "sales/bianca/private.txt",
+      "kind": "personal",
+      "owner": "bianca",
+      "dept": "sales"
+    },
+    {
+      "token": "HT-84BB33C3E1FD",
+      "path": "sales/caleb/private.txt",
+      "kind": "personal",
+      "owner": "caleb",
+      "dept": "sales"
+    },
+    {
+      "token": "HT-36FCA2C71CCA",
+      "path": "sales/dana/private.txt",
+      "kind": "personal",
+      "owner": "dana",
+      "dept": "sales"
+    },
+    {
+      "token": "HT-08FD16025432",
+      "path": "hr/elena/private.txt",
+      "kind": "personal",
+      "owner": "elena",
+      "dept": "hr"
+    },
+    {
+      "token": "HT-8D886DE44EEE",
+      "path": "hr/farid/private.txt",
+      "kind": "personal",
+      "owner": "farid",
+      "dept": "hr"
+    },
+    {
+      "token": "HT-9882A08D8E1B",
+      "path": "hr/grace/private.txt",
+      "kind": "personal",
+      "owner": "grace",
+      "dept": "hr"
+    },
+    {
+      "token": "HT-1C622CD4F250",
+      "path": "finance/hassan/private.txt",
+      "kind": "personal",
+      "owner": "hassan",
+      "dept": "finance"
+    },
+    {
+      "token": "HT-8A1A58585464",
+      "path": "finance/irene/private.txt",
+      "kind": "personal",
+      "owner": "irene",
+      "dept": "finance"
+    },
+    {
+      "token": "HT-68EF6672F54B",
+      "path": "finance/jonas/private.txt",
+      "kind": "personal",
+      "owner": "jonas",
+      "dept": "finance"
+    },
+    {
+      "token": "HT-67B4A389BE1B",
+      "path": "rnd/keiko/private.txt",
+      "kind": "personal",
+      "owner": "keiko",
+      "dept": "rnd"
+    },
+    {
+      "token": "HT-6D899EE478B7",
+      "path": "rnd/liam/private.txt",
+      "kind": "personal",
+      "owner": "liam",
+      "dept": "rnd"
+    },
+    {
+      "token": "HT-B833C16996B8",
+      "path": "rnd/mira/private.txt",
+      "kind": "personal",
+      "owner": "mira",
+      "dept": "rnd"
+    },
+    {
+      "token": "HT-FD54910E5974",
+      "path": "rnd/noah/private.txt",
+      "kind": "personal",
+      "owner": "noah",
+      "dept": "rnd"
+    },
+    {
+      "token": "HT-CF63AE49DAE5",
+      "path": "sales/_shared/client_list.csv",
+      "kind": "dept_secret",
+      "owner": null,
+      "dept": "sales"
+    },
+    {
+      "token": "HT-26265F04FA6E",
+      "path": "hr/_shared/salaries.csv",
+      "kind": "dept_secret",
+      "owner": null,
+      "dept": "hr"
+    },
+    {
+      "token": "HT-43B0CD257E94",
+      "path": "finance/_shared/bank_accounts.csv",
+      "kind": "dept_secret",
+      "owner": null,
+      "dept": "finance"
+    },
+    {
+      "token": "HT-15703D2D4795",
+      "path": "rnd/_shared/source_secrets.md",
+      "kind": "dept_secret",
+      "owner": null,
+      "dept": "rnd"
+    },
+    {
+      "token": "HT-B50D40DD63B4",
+      "path": "_internal_services/admin-panel.banner",
+      "kind": "internal_service",
+      "owner": null,
+      "dept": null,
+      "host": "10.0.0.10"
+    },
+    {
+      "token": "HT-FD17E5FBEC0E",
+      "path": "_internal_services/db-server.banner",
+      "kind": "internal_service",
+      "owner": null,
+      "dept": null,
+      "host": "10.0.0.20"
+    },
+    {
+      "token": "HT-5675570BA20A",
+      "path": "_internal_services/ssh-gateway.banner",
+      "kind": "internal_service",
+      "owner": null,
+      "dept": null,
+      "host": "10.0.0.30"
+    }
+  ]
+}

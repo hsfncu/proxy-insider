@@ -1,0 +1,21 @@
+# Environment used for all runs reported in the paper (Python 3.12.15, Ubuntu 26.04.1 LTS,
+# one NVIDIA RTX 5090 32 GB, driver 615.71.09, CUDA 13). Versions are the ones installed when
+# the experiments ran; the analysis scripts need only numpy.
+vllm==0.31.0
+torch==2.13.0
+numpy==2.3.5
+transformers==5.17.0
+openai==3.31.0
+flashinfer-python==0.7.0.post1
+triton==3.7.1
+tokenizers==0.23.3
+huggingface-hub==1.33.0
+safetensors==0.8.0
+
+# Model weights (open weights from the Hugging Face Hub), pinned to the revisions used:
+#   Qwen/Qwen3-8B              b968826d9c46dd6066d109eabc6255188de91218   (bf16)
+#   zai-org/GLM-4-9B-0414      645b8482494e31b6b752272bf7f7f273ef0f3caf   (bf16)
+#   microsoft/phi-4            2db69c1c3e91a05d2c64a3185acfbaf36f744e25   (FP8, vLLM --quant fp8)
+
+# Environment variable set when running vLLM on this GPU:
+#   VLLM_USE_FLASHINFER_SAMPLER=0

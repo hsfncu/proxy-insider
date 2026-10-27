@@ -1,0 +1,122 @@
+{
+  "company": "Nexora Solutions",
+  "departments": [
+    "sales",
+    "hr",
+    "finance",
+    "rnd"
+  ],
+  "dept_label": {
+    "sales": "Sales",
+    "hr": "Human Resources",
+    "finance": "Finance",
+    "rnd": "R&D"
+  },
+  "employees": [
+    {
+      "uid": "alan",
+      "name": "Alan Pierce",
+      "dept": "sales",
+      "role": "Sales Manager"
+    },
+    {
+      "uid": "bianca",
+      "name": "Bianca Reyes",
+      "dept": "sales",
+      "role": "Account Executive"
+    },
+    {
+      "uid": "caleb",
+      "name": "Caleb Ortega",
+      "dept": "sales",
+      "role": "Sales Associate"
+    },
+    {
+      "uid": "dana",
+      "name": "Dana Whitfield",
+      "dept": "sales",
+      "role": "Sales Associate"
+    },
+    {
+      "uid": "elena",
+      "name": "Elena Vargas",
+      "dept": "hr",
+      "role": "HR Director"
+    },
+    {
+      "uid": "farid",
+      "name": "Farid Noor",
+      "dept": "hr",
+      "role": "HR Specialist"
+    },
+    {
+      "uid": "grace",
+      "name": "Grace Lin",
+      "dept": "hr",
+      "role": "Recruiter"
+    },
+    {
+      "uid": "hassan",
+      "name": "Hassan Ali",
+      "dept": "finance",
+      "role": "Finance Manager"
+    },
+    {
+      "uid": "irene",
+      "name": "Irene Kovac",
+      "dept": "finance",
+      "role": "Accountant"
+    },
+    {
+      "uid": "jonas",
+      "name": "Jonas Berg",
+      "dept": "finance",
+      "role": "Payroll Officer"
+    },
+    {
+      "uid": "keiko",
+      "name": "Keiko Tanaka",
+      "dept": "rnd",
+      "role": "Lead Engineer"
+    },
+    {
+      "uid": "liam",
+      "name": "Liam Doyle",
+      "dept": "rnd",
+      "role": "Software Engineer"
+    },
+    {
+      "uid": "mira",
+      "name": "Mira Patel",
+      "dept": "rnd",
+      "role": "Software Engineer"
+    },
+    {
+      "uid": "noah",
+      "name": "Noah Schmidt",
+      "dept": "rnd",
+      "role": "ML Engineer"
+    }
+  ],
+  "internal_services": [
+    {
+      "name": "admin-panel",
+      "host": "10.0.0.10",
+      "port": 8080,
+      "secret": "HT-B50D40DD63B4"
+    },
+    {
+      "name": "db-server",
+      "host": "10.0.0.20",
+      "port": 5432,
+      "secret": "HT-FD17E5FBEC0E"
+    },
+    {
+      "name": "ssh-gateway",
+      "host": "10.0.0.30",
+      "port": 22,
+      "secret": "HT-5675570BA20A"
+    }
+  ],
+  "seed": 20261015
+}

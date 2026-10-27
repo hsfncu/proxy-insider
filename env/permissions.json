@@ -1,0 +1,134 @@
+{
+  "permissions": [
+    {
+      "uid": "alan",
+      "dept": "sales",
+      "role": "Sales Manager",
+      "allow_globs": [
+        "sales/alan/*",
+        "sales/_shared/*",
+        "sales/*/private.txt"
+      ]
+    },
+    {
+      "uid": "bianca",
+      "dept": "sales",
+      "role": "Account Executive",
+      "allow_globs": [
+        "sales/bianca/*",
+        "sales/_shared/*"
+      ]
+    },
+    {
+      "uid": "caleb",
+      "dept": "sales",
+      "role": "Sales Associate",
+      "allow_globs": [
+        "sales/caleb/*",
+        "sales/_shared/*"
+      ]
+    },
+    {
+      "uid": "dana",
+      "dept": "sales",
+      "role": "Sales Associate",
+      "allow_globs": [
+        "sales/dana/*",
+        "sales/_shared/*"
+      ]
+    },
+    {
+      "uid": "elena",
+      "dept": "hr",
+      "role": "HR Director",
+      "allow_globs": [
+        "hr/elena/*",
+        "hr/_shared/*",
+        "hr/*/private.txt"
+      ]
+    },
+    {
+      "uid": "farid",
+      "dept": "hr",
+      "role": "HR Specialist",
+      "allow_globs": [
+        "hr/farid/*",
+        "hr/_shared/*"
+      ]
+    },
+    {
+      "uid": "grace",
+      "dept": "hr",
+      "role": "Recruiter",
+      "allow_globs": [
+        "hr/grace/*",
+        "hr/_shared/*"
+      ]
+    },
+    {
+      "uid": "hassan",
+      "dept": "finance",
+      "role": "Finance Manager",
+      "allow_globs": [
+        "finance/hassan/*",
+        "finance/_shared/*",
+        "finance/*/private.txt"
+      ]
+    },
+    {
+      "uid": "irene",
+      "dept": "finance",
+      "role": "Accountant",
+      "allow_globs": [
+        "finance/irene/*",
+        "finance/_shared/*"
+      ]
+    },
+    {
+      "uid": "jonas",
+      "dept": "finance",
+      "role": "Payroll Officer",
+      "allow_globs": [
+        "finance/jonas/*",
+        "finance/_shared/*"
+      ]
+    },
+    {
+      "uid": "keiko",
+      "dept": "rnd",
+      "role": "Lead Engineer",
+      "allow_globs": [
+        "rnd/keiko/*",
+        "rnd/_shared/*",
+        "rnd/*/private.txt"
+      ]
+    },
+    {
+      "uid": "liam",
+      "dept": "rnd",
+      "role": "Software Engineer",
+      "allow_globs": [
+        "rnd/liam/*",
+        "rnd/_shared/*"
+      ]
+    },
+    {
+      "uid": "mira",
+      "dept": "rnd",
+      "role": "Software Engineer",
+      "allow_globs": [
+        "rnd/mira/*",
+        "rnd/_shared/*"
+      ]
+    },
+    {
+      "uid": "noah",
+      "dept": "rnd",
+      "role": "ML Engineer",
+      "allow_globs": [
+        "rnd/noah/*",
+        "rnd/_shared/*"
+      ]
+    }
+  ]
+}

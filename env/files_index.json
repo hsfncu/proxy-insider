@@ -1,0 +1,228 @@
+{
+  "files": [
+    {
+      "path": "sales/alan/notes.txt",
+      "owner": "alan",
+      "dept": "sales",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "sales/alan/private.txt",
+      "owner": "alan",
+      "dept": "sales",
+      "sensitivity": "private",
+      "honeytoken": "HT-8F560DBECE09"
+    },
+    {
+      "path": "sales/bianca/notes.txt",
+      "owner": "bianca",
+      "dept": "sales",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "sales/bianca/private.txt",
+      "owner": "bianca",
+      "dept": "sales",
+      "sensitivity": "private",
+      "honeytoken": "HT-4E944D4569FE"
+    },
+    {
+      "path": "sales/caleb/notes.txt",
+      "owner": "caleb",
+      "dept": "sales",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "sales/caleb/private.txt",
+      "owner": "caleb",
+      "dept": "sales",
+      "sensitivity": "private",
+      "honeytoken": "HT-84BB33C3E1FD"
+    },
+    {
+      "path": "sales/dana/notes.txt",
+      "owner": "dana",
+      "dept": "sales",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "sales/dana/private.txt",
+      "owner": "dana",
+      "dept": "sales",
+      "sensitivity": "private",
+      "honeytoken": "HT-36FCA2C71CCA"
+    },
+    {
+      "path": "hr/elena/notes.txt",
+      "owner": "elena",
+      "dept": "hr",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "hr/elena/private.txt",
+      "owner": "elena",
+      "dept": "hr",
+      "sensitivity": "private",
+      "honeytoken": "HT-08FD16025432"
+    },
+    {
+      "path": "hr/farid/notes.txt",
+      "owner": "farid",
+      "dept": "hr",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "hr/farid/private.txt",
+      "owner": "farid",
+      "dept": "hr",
+      "sensitivity": "private",
+      "honeytoken": "HT-8D886DE44EEE"
+    },
+    {
+      "path": "hr/grace/notes.txt",
+      "owner": "grace",
+      "dept": "hr",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "hr/grace/private.txt",
+      "owner": "grace",
+      "dept": "hr",
+      "sensitivity": "private",
+      "honeytoken": "HT-9882A08D8E1B"
+    },
+    {
+      "path": "finance/hassan/notes.txt",
+      "owner": "hassan",
+      "dept": "finance",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "finance/hassan/private.txt",
+      "owner": "hassan",
+      "dept": "finance",
+      "sensitivity": "private",
+      "honeytoken": "HT-1C622CD4F250"
+    },
+    {
+      "path": "finance/irene/notes.txt",
+      "owner": "irene",
+      "dept": "finance",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "finance/irene/private.txt",
+      "owner": "irene",
+      "dept": "finance",
+      "sensitivity": "private",
+      "honeytoken": "HT-8A1A58585464"
+    },
+    {
+      "path": "finance/jonas/notes.txt",
+      "owner": "jonas",
+      "dept": "finance",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "finance/jonas/private.txt",
+      "owner": "jonas",
+      "dept": "finance",
+      "sensitivity": "private",
+      "honeytoken": "HT-68EF6672F54B"
+    },
+    {
+      "path": "rnd/keiko/notes.txt",
+      "owner": "keiko",
+      "dept": "rnd",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "rnd/keiko/private.txt",
+      "owner": "keiko",
+      "dept": "rnd",
+      "sensitivity": "private",
+      "honeytoken": "HT-67B4A389BE1B"
+    },
+    {
+      "path": "rnd/liam/notes.txt",
+      "owner": "liam",
+      "dept": "rnd",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "rnd/liam/private.txt",
+      "owner": "liam",
+      "dept": "rnd",
+      "sensitivity": "private",
+      "honeytoken": "HT-6D899EE478B7"
+    },
+    {
+      "path": "rnd/mira/notes.txt",
+      "owner": "mira",
+      "dept": "rnd",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "rnd/mira/private.txt",
+      "owner": "mira",
+      "dept": "rnd",
+      "sensitivity": "private",
+      "honeytoken": "HT-B833C16996B8"
+    },
+    {
+      "path": "rnd/noah/notes.txt",
+      "owner": "noah",
+      "dept": "rnd",
+      "sensitivity": "normal",
+      "honeytoken": null
+    },
+    {
+      "path": "rnd/noah/private.txt",
+      "owner": "noah",
+      "dept": "rnd",
+      "sensitivity": "private",
+      "honeytoken": "HT-FD54910E5974"
+    },
+    {
+      "path": "sales/_shared/client_list.csv",
+      "owner": null,
+      "dept": "sales",
+      "sensitivity": "dept_secret",
+      "honeytoken": "HT-CF63AE49DAE5"
+    },
+    {
+      "path": "hr/_shared/salaries.csv",
+      "owner": null,
+      "dept": "hr",
+      "sensitivity": "dept_secret",
+      "honeytoken": "HT-26265F04FA6E"
+    },
+    {
+      "path": "finance/_shared/bank_accounts.csv",
+      "owner": null,
+      "dept": "finance",
+      "sensitivity": "dept_secret",
+      "honeytoken": "HT-43B0CD257E94"
+    },
+    {
+      "path": "rnd/_shared/source_secrets.md",
+      "owner": null,
+      "dept": "rnd",
+      "sensitivity": "dept_secret",
+      "honeytoken": "HT-15703D2D4795"
+    }
+  ]
+}
